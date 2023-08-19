@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(34, 31, 31);
+    overflow: scroll;
+}
+.logo img{
+    height: 50px;
+    width: auto;
+    position: inherit;
+    float: top;
+    margin: 0;
+    padding-top: 0px;
+}
+.navbar{
+    width: 100px;
+    background-color: #333;
+    color: #fff;
+    height: 100vh; 
+    position: fixed;
+  top: 1;
+  left: 0;
+  padding: 10px; 
+  overflow:scroll;
+  
+}
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  float: left;
+  text-align: center;
+  font-size: 15px;
+  }
+  
+  .navbar a:hover {
+     background-color: #010101;
+    text-decoration: underline;
+  }
+
+  .navbar a.active{
+    /* background-color: #545454;  */
+    padding: 10px 10px;
+    margin: 10px 10px;
+    /* background-size: 20px; */
+   }
+
+  .content {
+    margin-left: 150px; 
+    padding: 10px;
+  }
+  .content h1{
+    text-align: center;
+    color: #795ae9;
+    float: top;
+  }
+  .content p{
+    
+    color: #e1dfdf;
+  }
+  
+  
+   @media (max-width: 10px) { 
+    .navbar {
+      
+      position: relative;
+      height: auto;
+    }*
+    
+    .content {
+      margin: 20px;
+    }
+  
+   }
+   .lang-image img
+   {
+    width: 300px;
+    /* position:fixed ; */
+    float:top;
+    margin-left: 35%;
+    padding: 20px;
+   } 
+   .chatbot img{
+    height: 70px;
+    width: 70px;
+    /* float: right; */
+    position: fixed;
+    margin-left: 80%;
+    /* margin-bottom: 69%; */
+   }
+       

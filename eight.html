@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     .container {
+        text-align: center;
+     }
+     .container button{
+        background-color: rgb(223, 226, 226);
+        border: rgb(110, 49, 49);
+        border-radius: 3px;
+        height: 40px;
+        width: 90px;
+        cursor: pointer;
+     }
+     .container button:hover{
+        background-color:rgb(213, 214, 214) ;
+     }
+/* :modal { 
+  background-color: beige;
+  border: 2px solid burlywood;
+  border-radius: 5px;
+} */
+    </style>
+    <script>
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.modal');
+    var instances = M.Modal.init(elems, options);
+  });
+
+    </script>
+</head>
+<body>
+<div class="content">
+    <h1> Full stack web development </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem rerum adipisci nobis maiores ad explicabo dicta vero at ea in quam cupiditate facilis quaerat eius repudiandae consequuntur ullam nulla, maxime pariatur tempore tempora aperiam. Facilis fuga recusandae aperiam odit perspiciatis? Expedita asperiores, voluptas rerum quam autem ipsam voluptatibus quaerat? In.</p>
+ <h2>Course Details</h2>
+ <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas cum rem, perspiciatis quibusdam temporibus harum architecto incidunt molestias necessitatibus totam molestiae, quisquam corporis dicta dolorem, fugit praesentium atque est! Libero sequi ipsa soluta at obcaecati debitis incidunt facilis nisi voluptas, ea, nam unde sed ipsum maiores dolore dolorum quasi culpa quod? Adipisci, enim! Eaque aliquam voluptatem illo in sint beatae delectus dignissimos fugiat tempore saepe ex provident aperiam ut quidem, dicta sunt quas cum ipsum reiciendis porro. Tenetur rem inventore aliquid praesentium neque delectus accusantium veritatis possimus obcaecati, architecto, optio velit laboriosam maiores aspernatur saepe quo asperiores sint dolor? Nesciunt sed fugiat incidunt. Deserunt nemo minima aliquam quos consectetur praesentium optio dolores fuga quasi nostrum eum commodi neque vero sapiente consequuntur, expedita quas architecto quidem temporibus autem et quaerat nesciunt. Porro dolorum incidunt officiis voluptate in sunt nemo alias harum architecto odio, iusto repudiandae officia beatae voluptatem consequatur dolores vitae delectus, cum obcaecati asperiores voluptatum. Totam, nobis ipsum. Veritatis illum excepturi, omnis deleniti neque nam! Atque possimus exercitationem esse sequi enim eveniet maxime? Error dolore excepturi, eligendi dolor quae repellat quasi nam eos alias possimus consequuntur adipisci. Ullam iusto accusantium aliquid laboriosam dolorem numquam excepturi ipsa ad praesentium. Sit cumque fugiat amet inventore molestiae odio perspiciatis laboriosam nemo sint. Facilis officiis laborum pariatur ipsum ipsam hic, maxime porro sapiente vero harum soluta. Facere unde sit voluptatum? Veniam sit praesentium, ut eum repudiandae aperiam nulla eligendi impedit quos ducimus necessitatibus reiciendis neque nesciunt inventore officiis molestias harum? Quos, eaque. Eaque, eveniet! Magni quam sed vero eum unde nihil, accusamus sint itaque accusantium autem veritatis impedit rerum modi reiciendis enim error quo doloremque labore blanditiis natus! Accusantium sed totam, minus animi laborum facere deleniti consequatur ratione hic quo dolor nostrum, quaerat velit? Ex asperiores molestias, accusantium totam est dolore nostrum eveniet maxime amet. Vel quia eligendi enim similique voluptas ducimus rem eaque adipisci eum magnam unde provident consequuntur sed quae, tenetur itaque veniam maiores est tempora exercitationem mollitia. Aspernatur voluptatem magnam provident iste in aliquam magni fugit nemo quas quis tempora perspiciatis nobis praesentium molestiae nulla incidunt, quo saepe quaerat, porro ipsum illo eaque voluptate? Sapiente, possimus itaque quod non deleniti, vero in nemo modi, dignissimos libero praesentium! Quas labore repellat, non ut beatae tempore corporis modi facere! Sint dicta est nam omnis non, voluptates, unde perferendis autem illum corrupti ea quibusdam quisquam fugiat neque libero! Beatae animi eius soluta natus similique reiciendis. Fugit ad temporibus cumque hic quis delectus, perferendis veritatis sed tempora! Rerum magnam error quaerat laborum obcaecati vel aliquam exercitationem excepturi atque aut. Ex doloribus itaque necessitatibus cum aliquid! Inventore sed laboriosam mollitia ratione vel, ipsum neque eos veniam non consequuntur? Nihil minus nesciunt dolorem laudantium quisquam commodi odio libero animi, laborum excepturi? Enim, quis! Necessitatibus aut quasi assumenda doloremque odit et molestiae veniam commodi quis. Provident magnam amet eaque maxime deserunt repellat quos ducimus eligendi! Sapiente adipisci non quia, perspiciatis nisi nemo doloremque laboriosam tempore, aperiam beatae recusandae iste esse! At, id fugit quidem qui et illum architecto?</p>
+</div>
+<div class=" container">
+ <h2> <strong> Want to contact for free consultaion?</strong></h2>
+ <!-- <button id="showNumber"><strong>click here</strong></button> -->
+</div>
+
+<button data-target="modal1" class="btn modal-trigger">click here</button>
+<!-- Modal Structure -->
+<div id="modal1" class="modal">
+  <div class="modal-content">
+    <h4>Want a free consultation?</h4>
+    <p>A bunch of text</p>
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Send Message</a>
+  </div>
+</div>
+</body>
+</html>

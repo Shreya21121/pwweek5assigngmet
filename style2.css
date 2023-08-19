@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+
+.content h1{
+color: #fff;
+margin-top: 10%;
+}
+.content p{
+    color: #ede8e8;   
+    
+    width:50%
+}
+.content img{
+    float: right;
+    width: 400px;
+    height: 400px;
+    top: 0px;
+   
+}
+
+.content button{
+   cursor: pointer; 
+   bottom: 40%;
+   background-color: rgb(159, 78, 236);
+   color: #fff;
+}
+.content button:hover{
+color:black ;
+}
